@@ -1,0 +1,8 @@
+
+.card {
+  background: linear-gradient(
+    190deg,
+    hsla(169, 76%, 48%, 1) 0%,
+    hsla(67, 87%, 82%, 1) 100%
+  );
+}
