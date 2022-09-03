@@ -59,7 +59,7 @@ const [body_mass, setBodymass] = useState("");
               Enter Your Height in (cm)
             </label>
             <input
-              type="password"
+              type="text"
               class="form-control"
               name="height"
               value={height}

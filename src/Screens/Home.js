@@ -4,6 +4,7 @@ import logo1 from "../Assets/img-2.jpg";
 import logo2 from "../Assets/img-3.jpg";
 import BMI from "./bmi";
 import ContentFirst from "./ContentFirst";
+import Footer from "./Footer";
 import Midcontent from "./Midcontent";
 import Pricing from "./Pricing";
 import Trainers from "./Trainers";
@@ -81,6 +82,7 @@ const Home = () => {
       <ContentFirst />
       <Trainers />
       <Pricing />
+      <Footer />
     </>
   );
 };
