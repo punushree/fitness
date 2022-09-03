@@ -89,19 +89,19 @@ const Pricing = () => {
                   </p>
                   {item.facilities.map((facilities) => (
                     <>
-                    <div className="flex my-2" key={item.id}>
+                    <div className="flex my-2">
                       <i className={facilities.fac1_icon}></i>
                       <p className="text-xl">{facilities.fac1}</p>
                     </div>
-                      <div className="flex my-2" key={item.id}>
+                      <div className="flex my-2">
                       <i className={facilities.fac2_icon}></i>
                       <p className="text-xl">{facilities.fac2}</p>
                     </div>
-                      <div className="flex my-2" key={item.id}>
+                      <div className="flex my-2">
                       <i className={facilities.fac3_icon}></i>
                       <p className="text-xl">{facilities.fac3}</p>
                     </div>
-                      <div className="flex my-2" key={item.id}>
+                      <div className="flex my-2">
                       <i className={facilities.fac4_icon}></i>
                       <p className="text-xl">{facilities.fac4}</p>
                       </div>
