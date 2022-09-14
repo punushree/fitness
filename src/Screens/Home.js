@@ -82,6 +82,7 @@ const Home = () => {
       <ContentFirst />
       <Trainers />
       <Pricing />
+      <hr></hr>
       <Footer />
     </>
   );

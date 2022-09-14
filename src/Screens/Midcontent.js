@@ -48,12 +48,12 @@ const Midcontent = () => {
     },
   ];
   return (
-    <>
+    <div style={{marginBottom: '50px'}}>
       <h1 className="text-center font-bold text-2xl uppercase my-4">
        {show === true ? "Explore Exercises" : "Explore Our Programs"} 
       </h1>
       {!show ? (
-        <div class="flex flex-wrap  justify-between md:justify-center sm:justify-center lg:justify-between p-2">
+        <div class="flex flex-wrap space-around md:justify-center sm:justify-center lg:justify-center p-2">
           {Programs.map((program) => (
             <div
               class="w-full sm:w-40 md:w-1/3 lg:w-1/4 xl:w-1/4 bg-gray-400 my-2 mx-2 hover:bg-green-500 h-auto rounded p-3"
@@ -77,7 +77,7 @@ const Midcontent = () => {
       ) : (
         <ExerciseCard Exercises={exercises} />
       )}
-    </>
+    </div>
   );
 };
 

@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-black w-full text-white p-3">
+    <div className="bg-light w-full text-dark p-3">
       <div className="row justify-center">
         <div className="col-3">
           <h1 className=" text-white font-bold text-2xl">
@@ -22,42 +22,42 @@ const Footer = () => {
           </h1>
           <ul>
             <li>
-              Monday: <span className="text-red-700">6:00am - 10:30pm</span>
+              Monday: <span className="text-green-700">6:00am - 10:30pm</span>
             </li>
             <li>
-              Tuesday: <span className="text-red-700">6:00am - 10:30pm</span>
+              Tuesday: <span className="text-green-700">6:00am - 10:30pm</span>
             </li>
             <li>
-              Wednesday: <span className="text-red-700">6:00am - 10:30pm</span>
+              Wednesday: <span className="text-green-700">6:00am - 10:30pm</span>
             </li>
             <li>
-              Thursday: <span className="text-red-700">6:00am - 10:30pm</span>
+              Thursday: <span className="text-green-700">6:00am - 10:30pm</span>
             </li>
             <li>
-              Friday: <span className="text-red-700">6:00am - 10:30pm</span>
+              Friday: <span className="text-green-700">6:00am - 10:30pm</span>
             </li>
             <li>
-              Saturday: <span className="text-red-700">6:00am - 10:30pm</span>
+              Saturday: <span className="text-green-700">6:00am - 10:30pm</span>
             </li>
             <li>
-              Sunday: <span className="text-red-700">Closed</span>
+              Sunday: <span className="text-green-700">Closed</span>
             </li>
           </ul>
         </div>
         <div className="col-3">
-          <h1 className=" text-white font-bold text-2xl">Address</h1>
+          <h1 className=" text-dark font-bold text-2xl">Address</h1>
           <ul>
             <li>
-              <i class="fas fa-phone text-red-700 mr-2"></i>   7980226858
+              <i class="fas fa-phone text-green-700 mr-2"></i>   7980226858
             </li>
             <li>
-              <i class="fas fa-phone text-red-700 mr-2"></i>   9980326858
+              <i class="fas fa-phone text-green-700 mr-2"></i>   9980326858
             </li>
             <li>
-              <i class="fas fa-envelope text-red-700 mr-2"></i>   samrat@gmail.com
+              <i class="fas fa-envelope text-green-700 mr-2"></i>   samrat@gmail.com
             </li>
             <li>
-              <i class="fas fa-map-marker-alt text-red-700 mr-2"></i>   Kolkata
+              <i class="fas fa-map-marker-alt text-green-700 mr-2"></i>   Kolkata
             </li>
           </ul>
         </div>
@@ -67,7 +67,7 @@ const Footer = () => {
           </h1>
           <p className="text-gray-500 my-2 ">Subscribe For Latest Updates</p>
           <input type="text" placeholder="Enter your email" className="form-control my-2" />
-          <button type="button" className="py-2 px-3 bg-red-600 rounded">SUBSCRIBE</button>
+          <button type="button" className="py-2 px-3 bg-green-600 rounded">SUBSCRIBE</button>
         </div>
       </div>
     </div>
